@@ -1,3 +1,9 @@
+import "./home.css";
+
 export default function Home() {
-	return <></>;
+	return (
+		<>
+			<div className="homeContainer"></div>
+		</>
+	);
 }
