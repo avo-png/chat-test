@@ -1,5 +1,62 @@
+* {
+    font-family: "Poppins", sans-serif;
+    background-color: black;
+}
+
 .homeContainer {
     display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    width: 50%;
+    margin-left: 25%;
+    /* background-color: rgb(190, 54, 154); */
+    height: 50vw;
+    border-radius: 20px;
+    margin-top: 3vh;
+}
+
+.profileBar {
+    /* width: 100%; */
+    background-color: green;
+    height: 2vw;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+.profileWrapper {
+    display: flex;
+    justify-content: space-between;
+    background-color: green;
+}
+
+.profileName {
+    margin-top: -4px;
+    background-color: green;
+}
+
+.xOut {
+    margin-top: -4px;
+    background-color: green;
+}
+
+.chatSection {
+    background-color: white;
+    height: 35vh;
     width: 100%;
-    background-color: red; 
+}
+
+.extraContainer {
+    width: 100%;
+    height: 1vh;
+    background-color: blue;
+}
+
+.typeBarContainer {
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(190, 54, 154);
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
