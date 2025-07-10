@@ -1,4 +1,5 @@
 import "./home.css";
+import { IoSend } from "react-icons/io5";
 
 export default function Home() {
 	return (
@@ -18,7 +19,25 @@ export default function Home() {
 				{/* Files and Emojis Section */}
 				<div className="extraContainer"></div>
 				{/* Type Bar*/}
-				<div className="typeBarContainer"></div>
+				<div className="typeBarContainer">
+					<div className="typeBox">
+						{/* <input
+							type="text"
+							className="chatBlock"
+						/> */}
+						<textarea
+							name="text"
+							rows="3"
+							cols="45"
+							wrap="soft"
+						>
+							{" "}
+						</textarea>
+					</div>
+					<div className="sendButton">
+						<IoSend />
+					</div>
+				</div>
 			</div>
 		</>
 	);
